@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Coursework</title>
+</head>
+
+<body>
+    <script>
+        var grade = 0;
+
+        grade = window.prompt("Enter your grade");
+
+        switch (grade) {
+            case grade >= 80:
+                document.write("You got A");
+                break;
+
+            case grade < 80 && grade >= 60:
+                document.write("You got B");
+                break;
+
+            case grade < 60 && grade >= 40:
+                document.write("You got C");
+                break;
+
+            case grade < 40:
+                document.write("You FAILED");
+                break;
+
+            default:
+                document.write("Wrong Number");
+        }
+        document.write("The end");
+    </script>
+</body>
+
+</html>
